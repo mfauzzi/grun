@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+
+* {
+  font-family: "Lora";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 92px;
+}
+.link-sm {
+  color: #000000;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 400;
+}
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sofa {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: center;
+}
+button.btn-primary {
+  background-color: transparent;
+  padding: 16px 80px;
+  border: 1px solid #375958;
+  border-radius: 300px;
+  color: #ababab;
+  font-size: 20px;
+  font-weight: 400;
+}
+.column-hero img {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.column-text {
+  padding-top: 124px;
+  width: 45%;
+}
+h1.sofa-heading {
+  font-size: 72px;
+  color: #000000;
+}
+p.text {
+  margin: 24px 0;
+  font-size: 24px;
+  line-height: 28px;
+  height: 124px;
+}
+button.btn-secondary {
+  background-color: #375958;
+  padding: 16px 40px;
+  border: none;
+  border-radius: 300px;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+.banner {
+  margin-top: 120px;
+  background-color: #dfe6e6;
+  height: 262px;
+}
+.row-3-col {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5em 6em;
+}
+.col h4 {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.col p {
+  display: flex;
+  font-size: 16px;
+  margin: 20px 20px;
+  text-align: center;
+}
+.title-heading {
+  display: flex;
+  margin-top: 120px;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.column-video {
+  margin-top: 50px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.row-2-col {
+  margin-top: 120px;
+  width: 100%;
+  display: grid;
+  grid-template-areas:
+    "col-1 col-2 col-2"
+    "col-3 col-2 col-2";
+}
+.col-2 {
+  grid-area: col-2;
+}
+.title-about {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  flex-direction: column;
+}
+.title-about h1 {
+  font-size: 48px;
+  font-weight: 400;
+}
+.title-about p {
+  font-size: 30px;
+  margin-top: 70px;
+  text-align: center;
+}
+.footer {
+  margin-top: 120px;
+  background-color: #375958;
+  position: absolute;
+  width: 1440px;
+  height: 470px;
+  left: -1px;
+}
+.nav-fotter {
+  margin-top: 120px;
+}
+.nav-web {
+  margin-top: 270px;
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  margin-top: 500px;
+}
+.copyright h4 {
+  font-size: 18px;
+  color: #dfe6e6;
+}
+.garis {
+  margin-top: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
